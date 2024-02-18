@@ -1,2 +1,2 @@
 # gitacttest
-[text](../../../../xampp/htdocs/miniproject/index.php)
+# xampp/htdocs/miniproject/index.php
