@@ -2,7 +2,6 @@
 # xampp/htdocs/miniproject/index.php
 # Me llamo Ronier y este es mi segunda linea #
 # Este codigo random de bienvenida en php #
-# Bienvenida #
 <?php
 session_start();
 
@@ -23,7 +22,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
-
+    // Si no se encuentra un usuario válido, muestra un mensaje de error
+    $error_message = "Usuario o contraseña incorrectos.";
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
