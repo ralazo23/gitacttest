@@ -2,6 +2,7 @@
 # xampp/htdocs/miniproject/index.php
 # Me llamo Ronier y este es mi segunda linea #
 # Este codigo random de bienvenida en php #
+# Bienvenida #
 <?php
 session_start();
 
