@@ -22,9 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
-    // Si no se encuentra un usuario válido, muestra un mensaje de error
-    $error_message = "Usuario o contraseña incorrectos.";
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
